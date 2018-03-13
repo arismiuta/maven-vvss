@@ -1,0 +1,2 @@
+aris,1234567891234,pinilor
+mihai,1234567891235,pinilor
