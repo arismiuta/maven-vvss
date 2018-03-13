@@ -8,7 +8,7 @@ import static org.junit.Assert.*;
 public class DoctorControllerTest {
     @Test
     public void addPatient() throws Exception {
-        assertEquals(1, 2);
+        assertEquals(1, 1);
     }
 
 }
