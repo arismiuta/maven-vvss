@@ -11,4 +11,9 @@ public class DoctorControllerTest {
         assertEquals(1, 1);
     }
 
+    @Test
+    public void addPatient2() throws Exception {
+        assertEquals(1, 2);
+    }
+
 }
