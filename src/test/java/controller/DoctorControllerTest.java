@@ -1,11 +1,18 @@
 package controller;
 
-import org.junit.Assert.*;
+import exceptions.ConsultationException;
+import exceptions.PatientException;
+import model.Patient;
 import org.junit.Test;
+import repository.Repository;
 
-import static org.junit.Assert.*;
+import java.util.ArrayList;
+import java.util.List;
+
+import static org.junit.Assert.assertEquals;
 
 public class DoctorControllerTest {
+
     @Test
     public void addPatient() throws Exception {
         assertEquals(1, 1);
