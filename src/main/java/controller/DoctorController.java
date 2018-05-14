@@ -1,11 +1,9 @@
 package controller;
 
-import java.io.FileNotFoundException;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import exceptions.ConsultationException;
 import exceptions.PatientException;
 import repository.Repository;
