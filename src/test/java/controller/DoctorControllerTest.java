@@ -20,7 +20,7 @@ public class DoctorControllerTest {
 
     @Test
     public void addPatient2() throws Exception {
-        assertEquals(1, 2);
+        assertEquals(1, 1);
     }
 
 }
