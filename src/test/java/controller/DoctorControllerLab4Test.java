@@ -1,11 +1,8 @@
-
-
 package controller;
 
         import exceptions.ConsultationException;
         import exceptions.PatientException;
         import model.Patient;
-        import org.junit.Assert.*;
         import org.junit.Test;
         import repository.Repository;
 
@@ -55,8 +52,6 @@ public class DoctorControllerLab4Test {
         assertEquals(repository.getConsultationList().size(), 1);
 
         repository.cleanFiles();
-
-
     }
 
     @Test
